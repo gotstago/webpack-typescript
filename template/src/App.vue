@@ -9,7 +9,7 @@
   </div>
 </template>
 
-<script>
+<script lang=typescript>
 {{#unless router}}
 import Hello from './components/Hello'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
